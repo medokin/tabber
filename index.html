@@ -40,7 +40,15 @@
 
   <!-- scripts concatenated and minified via ant build script-->
   <script src="js/plugins.js"></script>
-  <script src="js/script.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+	  $('.tabber').tabber({
+		control : 'top'
+	  });
+
+    });   
+  </script> 
   <!-- end scripts-->
 
 
