@@ -1,4 +1,9 @@
-Tabber is a JQuery Tabs Plugin
+Tabber is a JQuery tabs plugin
+
+* Based on HTML5
+* Easy to use, it is a plugin
+* Light markup
+* Set you tabs on top or left
 
 Example:
 
@@ -6,7 +11,7 @@ Example:
 JS:
 
 $(document).ready(function(){
-	$('.tabber').tabber();
+  $('.tabber').tabber();
 });
 
 
