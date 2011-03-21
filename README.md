@@ -5,6 +5,7 @@
 * Light markup
 * Set you tabs on top or left
 * Looks well with disabled JS
+* IE6 Ready
 
 ## Example:
 ### JS:

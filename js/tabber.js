@@ -49,9 +49,9 @@
 					tabs.each(function(){
 						if($(this).attr('data-tab') == tab)
 							$(this).show();
-					});	
-					return false											
+					});												
 				}
+				return false
 			});	
 			
 	
