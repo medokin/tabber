@@ -8,14 +8,23 @@
 	width: 500px;
 	overflow: hidden;
 	
-	.control{
+	.c{
 		padding: 0;
 		margin:0;
 		list-style: none;
 		display: none;		
 		
+		a{
+			display:block;
+			cursor: pointer;
+			text-decoration: none;
+			padding:5px;
+			border: 1px solid #ccc;			
+		}
+		
 		&.top{
 			li{
+				float:left;
 				display: inline;
 			}
 		}
@@ -28,9 +37,15 @@
 		}
 	}
 	
-	.tab{
-		overflow: hidden;
+	.t{
 		border: 1px solid #ccc;
-		padding: 5px;	
+		padding: 10px;
+		&.top{
+			clear: left;
+		}
+		
+		&.left{
+			overflow: hidden;
+		}
 	}
 }
