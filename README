@@ -1,0 +1,28 @@
+Tabber is a JQuery Tabs Plugin
+
+Example:
+
+
+JS:
+
+$(document).ready(function(){
+	$('.tabber').tabber();
+});
+
+
+
+HTML:
+
+<div class="tabber" id="tabber2">
+  <ul class="c">
+    <li>Tab 1</li>
+    <li>Second</li>
+    <li>Last/li>
+  </ul>
+  <div class="t">First Content</div>
+  <div class="t">Second Content</div>
+  <div class="t">Third Content</div>
+</div>
+
+
+Thats it!
