@@ -1,0 +1,42 @@
+#container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 500px;
+}
+.tabber {
+  width: 500px;
+  overflow: hidden;
+}
+.tabber .c {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: none;
+}
+.tabber .c a {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+.tabber .c.top li {
+  float: left;
+  display: inline;
+}
+.tabber .c.left {
+  float: left;
+}
+.tabber .c.left li {
+  display: block;
+}
+.tabber .t {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.tabber .t.top {
+  clear: left;
+}
+.tabber .t.left {
+  overflow: hidden;
+}
