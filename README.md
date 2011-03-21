@@ -16,7 +16,7 @@
 
 ### HTML:
 
-	<div class="tabber" id="tabber2">
+	<div class="tabber">
   		<ul class="c">
     		<li>Tab 1</li>
     		<li>Second</li>
