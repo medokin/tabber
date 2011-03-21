@@ -6,17 +6,15 @@
 * Set you tabs on top or left
 
 ## Example:
+### JS:
 
-
-# JS:
-
-$(document).ready(function(){
-  $('.tabber').tabber();
-});
+	$(document).ready(function(){
+  		$('.tabber').tabber();
+	});
 
 
 
-# HTML:
+### HTML:
 
 	<div class="tabber" id="tabber2">
   		<ul class="c">
@@ -28,6 +26,4 @@ $(document).ready(function(){
   		<div class="t">Second Content</div>
   		<div class="t">Third Content</div>
 	</div>
-
-
-## Thats it!
+## That's it!
