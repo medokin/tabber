@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Tabber</title>
+  
+  <link rel="stylesheet/less" href="css/style.less">
+  
+  <script src="js/libs/less-1.0.41.min.js"></script>
+  <script type="text/javascript">
+    less.env = "development";
+    less.watch();   
+  </script> 
+
+</head>
+
+<body>
+
+  <div id="container">
+ 
+    <div class="tabber">
+      <ul class="control">
+    	<li>Test 1</li>
+    	<li>Test 2</li>
+    	<li>Test 3</li>
+      </ul>
+      <div class="tab">Inhalt 1</div>
+      <div class="tab">Inhalt 2</div>
+      <div class="tab">Inhalt 3</div>
+    </div>
+    
+  </div> 
+  
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">\x3C/script>')</script>
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <!-- end scripts-->
+
+
+</body>
+</html>

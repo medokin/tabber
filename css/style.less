@@ -1,0 +1,36 @@
+#container{
+	margin: 0 auto;
+	margin-top: 50px;
+	width:500px;
+}
+
+.tabber{
+	width: 500px;
+	overflow: hidden;
+	
+	.control{
+		padding: 0;
+		margin:0;
+		list-style: none;
+		display: none;		
+		
+		&.top{
+			li{
+				display: inline;
+			}
+		}
+		
+		&.left{
+			float:left;
+			li{
+				display: block;
+			}		
+		}
+	}
+	
+	.tab{
+		overflow: hidden;
+		border: 1px solid #ccc;
+		padding: 5px;	
+	}
+}
