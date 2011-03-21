@@ -19,6 +19,9 @@
   padding: 5px;
   border: 1px solid #ccc;
 }
+.tabber .c .active {
+  background-color: #ccc;
+}
 .tabber .c.top li {
   float: left;
   display: inline;

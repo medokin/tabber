@@ -4,6 +4,7 @@
 * Easy to use, it is a plugin
 * Light markup
 * Set you tabs on top or left
+* Looks well with disabled JS
 
 ## Example:
 ### JS:
